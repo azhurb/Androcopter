@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class AndrocopterActivity extends Activity  implements SensorEventListener {
 	
-	private SensorManager mSensorManager;
+    private SensorManager mSensorManager;
     private Sensor mAccelerometer;
     private TextView mAzimuthValue;
     private TextView mPitchValue;
